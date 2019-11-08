@@ -63,9 +63,10 @@
 #
 # if prihod > rashod:
 #     print('Прибыль — выручка больше издержек')
-#
-#     people = int(input('введите число сотрудников: '))
 #     pribyl = prihod - rashod
+#     s = ptibyl/prihod
+#     print(f'Рентабельность выручки: {s}')
+#     people = int(input('введите число сотрудников: '))
 #     prihod_per_people = int(pribyl / people)
 #     print(f'Прибыль на одного сотрудника: {prihod_per_people}')
 # else:
