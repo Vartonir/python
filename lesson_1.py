@@ -58,31 +58,31 @@
 
 # Пятое задание
 
-# prihod = int(input('Введите сумму выручки фирмы: '))
-# rashod = int(input('Введите расход фирмы: '))
-#
-# if prihod > rashod:
-#     print('Прибыль — выручка больше издержек')
-#     pribyl = prihod - rashod
-#     s = ptibyl/prihod
-#     print(f'Рентабельность выручки: {s}')
-#     people = int(input('введите число сотрудников: '))
-#     prihod_per_people = int(pribyl / people)
-#     print(f'Прибыль на одного сотрудника: {prihod_per_people}')
-# else:
-#     print('убыток — издержки больше выручки')
+prihod = int(input('Введите сумму выручки фирмы: '))
+rashod = int(input('Введите расход фирмы: '))
+
+if prihod > rashod:
+    print('Прибыль — выручка больше издержек')
+    pribyl = prihod - rashod
+    s = pribyl/prihod
+    print(f'Рентабельность выручки: {s}')
+    people = int(input('введите число сотрудников: '))
+    prihod_per_people = int(pribyl / people)
+    print(f'Прибыль на одного сотрудника: {prihod_per_people}')
+else:
+    print('убыток — издержки больше выручки')
 
 # Шестое задание
 
-a = 15
-b = 50
-n = 0
-
-while a < b:
-    a = a + a*0.1
-    n = n + 1
-
-print(n)
+# a = 15
+# b = 50
+# n = 0
+#
+# while a < b:
+#     a = a + a*0.1
+#     n = n + 1
+#
+# print(n)
 
 
 
